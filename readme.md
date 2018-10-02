@@ -2,6 +2,12 @@
 
 This project is an implementation sample using the package [Passport-Multiauth](https://github.com/sfelix-martins/passport-multiauth).
 
+## Packages
+
+* Laravel Framework 5.6.*
+* Laravel Passport ^7.0
+* Passport-Multiauth ^3.0
+
 ## Installation
 
 Clone project and access the project folder:
@@ -63,3 +69,9 @@ The `oauth/token` route just add a new param `provider` to default laravel passp
     * `App\Controllers\LoginController`
  * Services
     * `App\Model\Authenticator` 
+
+## Todo
+
+* Add unit tests 
+* Add instructions to use with [laradock](http://laradock.io/) environment
+* Improve documentation
